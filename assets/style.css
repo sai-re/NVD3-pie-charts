@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font: 16px Helvetica, 'sans-serif';
+    line-height: 1.5;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+
+main {
+    display: block;
+}
+
+#page-title {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #5cb85c;
+    color: #f4f4f4;
+}
+
+.pieContainer {
+    margin: 2rem auto;
+    width: 95%;
+    max-width: 1440px;
+}
+
+.filter-forms {
+    margin: 1rem 0;
+}
+
+#moving-from,
+#age,
+#nationality,
+#funding,
+#type {
+    height: 470px;
+    width: 32%;
+    display: inline-block;
+}
+
+.nv-label text {
+    fill: #ffffff !important;
+}
+
+.nvd3 text {
+    font: normal 13px helvetica !important;
+}
+
+h3 {
+    text-align: center;
+}
+
+.nvtooltip {
+    display: none;
+}
+
+.nv-legendWrap {
+    transform: translateY(350px) !important;
+}

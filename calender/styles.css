@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+p, h1 {
+  margin: 0;
+  font-family: sans-serif, arial; }
+
+.calenderContainer {
+  width: 272px;
+  margin: auto;
+  text-align: center; }
+
+/*.calenderApp__toggle {
+margin-top: 10px;
+color: #fff;
+background-color: #5cb85c;
+padding: 1px 12px;
+border-radius: 4px;
+font-size: 14px;
+line-height: 1.428571429;
+cursor: pointer;
+border: 2px solid #499249; }*/
+
+.calenderApp {
+  width: 270px;
+  text-align: left;
+  /*display: none */
+  }
+  .calenderApp .title-container {
+    background-color: #5cb85c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #499249;
+    width: 100% }
+  .calenderApp__main-title {
+    margin: 10px auto;
+    color: #333;
+    font-size: 24px;
+    text-transform: none;
+    text-align: center; }
+  .calenderApp__title1, .calenderApp__title2 {
+    display: inline-block;
+    color: #fff; }
+  .calenderApp__title2 {
+    position: relative;
+    left: 48%; }
+  .calenderApp__message, .calenderApp__success {
+    color: #333; }
+  .calenderApp__message {
+    font-weight: bold; }
+  .calenderApp__dropdown {
+    display: inline-block;
+    vertical-align: top;
+    width: 27.9% }
+    .calenderApp__dropdown__years {
+      color: #333;
+      border-color: #838383;
+      width:100% }
+  .calenderApp__calender {
+    width: 190px;
+    display: inline-block;
+    border: 1px solid #838383;
+    padding: 10px;
+    background-color: #fff }
+    .calenderApp__calender__allMonths {
+      padding: 0;
+      margin: 0;
+      text-align: center }
+      .calenderApp__calender__allMonths__month {
+        list-style-type: none;
+        width: 30%;
+        padding: 5px;
+        margin: 1px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        color: #333;
+        font-family: sans-serif, arial; }
+  .calenderApp__filterButton, .calenderApp__clearButton {
+    margin-top: 10px;
+    color: #fff;
+    background-color: #f0ad4e;
+    padding: 1px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    cursor: pointer;
+    border: 2px solid #ca9141; }
+  .calenderApp__clearButton--update {
+    background-color: #5cb85c;
+    border-color: #499249;
+    margin-left: 18.5%; }
